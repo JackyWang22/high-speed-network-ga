@@ -20,6 +20,7 @@ if ( scalar @ARGV > 1 ) {
 
 # Question A
 ./mm-delay 10 
+./mm-link /usr/share/mahimahi/traces/ATT-LTE-driving-2016.up /usr/share/mahimahi/traces/ATT-LTE-driving-2016.down --uplink-queue=droptail --downlink-queue=droptail --uplink-queue-args="packets=200" --downlink-queue-args="packets=200"
 
 # Question B
 
