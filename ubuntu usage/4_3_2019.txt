@@ -1,0 +1,15 @@
+1. In git file, change to another branch:
+	
+	git checkout (branch name).
+
+	This way to moddify the branch
+
+2.Solved Problem: package 'gcc-4.4' has no installation candidate
+Edit
+/etc/apt/sources.list
+
+deb http://archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse 
+deb http://archive.ubuntu.com/ubuntu/ trusty-security main restricted universe multiverse 
+deb http://archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse 
+deb http://archive.ubuntu.com/ubuntu/ trusty-proposed main restricted universe multiverse 
+deb http://archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
