@@ -1,0 +1,8 @@
+* The Limit of the exisiting code *
+** did not have tclclass in cpp file. Use soheil's code as a reference
+** follow how to do it in packet/RED
+
+* Search for 
+** Add new queue
+** http://www.mathcs.emory.edu/~cheung/Courses/558-old/Syllabus/90-NS/Extend-NS/NS-Tcl-linkage.html
+** http://nile.wpi.edu/NS/simple_ns.html
