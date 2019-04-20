@@ -1,0 +1,15 @@
+#Useful forum/link/websites for ns2:
+## Search for how to write queue.
+## Forums(did not see ferquently)
+https://groups.google.com/forum/?fromgroups#!forum/ns-users
+http://network-simulator-ns-2.7690.n7.nabble.com/
+## YouTuber
+https://www.nsnam.com/2018/08/how-to-add-protocol-in-ns2-ns2-tutorial.html
+## Nice tutorial
+http://nile.wpi.edu/NS/
+nile.wpi.edu/NS/new_queue.html
+## GitHub
+### Implementation of Queue/RED in TCL(GOOGLE)
+https://github.com/jridgewell/ns2/blob/master/tcl/test/test-suite-red.tcl
+### NONE-TESTED TOKEN BUKET SHAPER (HKSTU)
+https://github.com/baiwei0427/Trinity/blob/master/NS2/test-shaper.tcl
