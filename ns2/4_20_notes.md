@@ -9,7 +9,21 @@
   *More examples under ~ns/tcl/ex/diffserv/
 
 
-## Leaky bucket is just as simple as setting token = 1.
+## Leaky bucket is just as simple as setting token rate= 1.
+## Token bucket: Store packet (shaper)
+Discard packet (policer)
+##
+*RFC 2697: A Single-Rate, Three-Color Marker
+Committed Information Rate (CIR), 
+Committed Burst Size (CBS), 
+Excess Burst Size (EBS)
+*RFC 2698: A Dual-Rate, Three-Color Marker
+Peak Information Rate (PIR) 
+Committed Information Rate (CIR), 
+Committed Burst Size (CBS), 
+Peak Burst Size (PBS)
+
+
 
 ## https://sites.google.com/site/linuxpebbles/Home/ns2/token-bucket-implementation-for-multiple-flows
   * This provides the method we used in our project and implement multi flow based on token bucket.
